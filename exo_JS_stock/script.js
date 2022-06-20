@@ -96,10 +96,10 @@ let prix_ht = (prix_plat*qt_plat)+(prix_supp*qt_supp)+(prix_boisson*qt_boisson);
 let tva = ((prix_plat*qt_plat)*1.1)+((prix_supp*qt_supp)*1.1)+((prix_boisson*qt_boisson)*1.1) - prix_ht;
 prix_ttc = prix_ht + tva;
 
-document.write("Net à payer : ",prix_ttc," €","</br>")
+document.write("Net à payer : ",prix_ttc.toFixed(2)," €","</br>")
 document.write("_________Détail_________","</br>")
-document.write("Prix H.T : ",prix_ht," €","</br>")
-document.write("TVA : ",tva," €","</br>")
+document.write("Prix H.T : ",prix_ht.toFixed(2)," €","</br>")
+document.write("TVA : ",tva.toFixed(2)," €","</br>")
 
 document.write("________________________", "</br>");
 document.write("________________________", "</br>");
