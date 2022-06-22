@@ -1,5 +1,11 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    color:rgb(89, 89, 89);
+}
 .corp {
-    width:800px;
+    width:1000px;
     background-color: beige;
 }
 
@@ -12,20 +18,44 @@ table,tr,td {
     vertical-align: middle;
 }
 
-.checkbox {
-    width : 15px;
-    height : 15px;
+.trtitre {
+    font-size: 22px;
+    font-weight: bolder;
 }
 
-.boutonp,.boutona {
-    background-color:antiquewhite;
-    border-radius: 20%;
-    padding:5px;
-    border: 1px solid black;
+label {
+    padding:10px;
 }
 
-#p,#a {
-    text-decoration: none;
-    color:black;
-    font-weight: 800;
+input {
+    width:20px;
+    height:20px;
 }
+
+bj"
+bj2
+bc"
+bc2
+ba"
+ba2
+bs"
+bs2
+"bg"
+"bg2
+bo"
+bo2
+bt"
+bt2
+bf"
+bf2
+bh"
+bh2
+"bp"
+"bp2
+bb"
+bb2
+bz"
+bz2
+bca"
+bca2
+/*mettre a la bonne taille */

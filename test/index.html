@@ -1,33 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html><head><title>Exemple DOM</title><script>function testerRadio() 
+    {
+        var radio = document.getElementsByName("btnRadChoix");
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/test/css/style.css" />
-</head>
-
-<body>
-
-    <div id="celule3">
-        <form>
-            <input id="goo" type="button" name="go" value="change la couleur en vert">
-            <input id="gooo" type="button" name="go2" value="change la couleur en rouge">
-        </form>
-    </div>
-
-    <div id="celule4">
-        <form>
-            <input id="goo" type="button" name="go" value="change la couleur en vert"><br>
-            <input id="gooo" type="button" name="go2" value="change la couleur en rouge">
-        </form>
-    </div>
-    
-
-
-    <script src="/test/script.js"></script>
-</body>
-
-</html>
+                for (var i=0; i<radio.length;i++) 
+                {
+                    if (radio[i].checked) 
+                    {
+                        document.getElementById("txtBox1").value = radio[i].value;
+                    }
+                }
+            }
+        </script></head><body><form name="frmChoix"><input type="radio" name="btnRadChoix" value="semaine" checked> Semaine
+            <br><input type="radio"  name="btnRadChoix" value="week end"> Week-end 
+            <br><input type="button" name="btn" value="Choix" onclick="testerRadio();"><br><input id="txtBox1" type ="text" name="txtChoix" value=""></form></body></html>
