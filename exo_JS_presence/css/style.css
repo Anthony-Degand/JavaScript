@@ -17,6 +17,15 @@ table,tr,td {
     height : 15px;
 }
 
-#jimmy {
-    background-color: aqua;
+.boutonp,.boutona {
+    background-color:antiquewhite;
+    border-radius: 20%;
+    padding:5px;
+    border: 1px solid black;
+}
+
+#p,#a {
+    text-decoration: none;
+    color:black;
+    font-weight: 800;
 }
