@@ -1,15 +1,35 @@
+//tableau
 
-//case1 id unique !
-let celule3 = document.getElementById("celule3");
+var tab = new Array(4);
 
+var tab;
+tab[0]="titi";
+tab[1]="tata";
+tab[2]="toto";
+tab[3]="tutu";
+tab[4]="tete";
 
-document.getElementById("gooo").onclick = function(){
-    celule3.style.backgroundColor= "red"; 
-}
+console.log(tab);
+document.write(tab,"</br>");
 
-document.getElementById("goo").onclick = function(){
-    celule3.style.backgroundColor= "green";   
-}
+tab.sort();
 
+console.log(tab.sort());
+document.write(tab.sort(),"</br>");
 
+tab.reverse();
 
+console.log(tab.reverse());
+document.write(tab.reverse(),"</br>");
+
+//date du jour
+
+var date = new Date();
+
+document.write(date.toLocaleDateString("fr-FR"),"</br>");
+
+var date = ("Mercredi 22 juin 2022");
+
+document.write(date.toUpperCase());
+
+let browserType = ('Mercredi 22 juin 2022'[3]);
