@@ -9,9 +9,38 @@
 </head>
 <body>
     
-    <form id="form1" onsubmit="return payer(this);">
+
+    <form id="form1">
+        
+        Valeur 1 : <input type="number" id="01"><br><br>
+
+       
+        Valeur 2 : <input type="number" id="02"><br><br>
+
+
+
+        <input type="button" value="Multiplie" onclick="multiplier();"><br><br>
+
+
+
+        <h2>Resultat : <span id="result"></span></h2>
 
     </form>
+
+    <form id="form2">
+        Prix boisson : <br><input type="nombre" id="b"><br><br>
+        Prix plat : <br><input type="nombre" id="p"><br><br>
+        Prix supplément : <br><input type="nombre" id="s"><br><br>
+
+        <input type="button" value="Encaisser" onclick="ttc();tva();ht();"><br><br>
+
+        <p>
+            TTC : <span id="ttc"></span><br><br>
+            TVA : <span id="tva"></span><br><br>
+            HT : <span id="ht"></span><br>
+        </p>
+    </form>
+
 
 
     <script src="/exo_ticket_form/script.js"></script>
