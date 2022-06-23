@@ -30,6 +30,8 @@ document.write(date.toLocaleDateString("fr-FR"),"</br>");
 
 var date = ("Mercredi 22 juin 2022");
 
-document.write(date.toUpperCase());
+document.write(date.toUpperCase(),"</br>");
 
-let browserType = ('Mercredi 22 juin 2022'[3]);
+let browserType = ('Mercredi 22 juin 2022'[2]);
+
+document.write(browserType);
