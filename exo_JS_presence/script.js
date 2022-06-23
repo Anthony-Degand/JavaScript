@@ -1,10 +1,4 @@
 
-//jimmy
-
-console.log(document.getElementsByName("jl"));
-
-
-
 document.getElementById("bj").onclick = function () {
     document.getElementById("jimmy").style.backgroundColor = "green";
 }
