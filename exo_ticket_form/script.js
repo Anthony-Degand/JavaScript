@@ -24,3 +24,10 @@ function ht(){
     s = document.getElementById("s").value;
     document.getElementById("ht").innerHTML = parseFloat(b) + parseFloat(p) + parseFloat(s);
 }
+
+function calcul(){
+    n = document.getElementById("n").value;
+    for (i = 2; i < n ;i++);
+     if (n % i === 0) {document.getElementById("result2").innerHTML ="Non"}
+     else            {document.getElementById("result2").innerHTML = "Oui"}
+  }
