@@ -15,21 +15,23 @@
         <div class="header">
             <h1>Moyenne générale</h1>
         </div>
-
+        <hr class="hr4"><hr class="hr5">
         <div class="body">
             <form>
-                <select name="eleve" size="1">
+
+
+                <select id="eleves" size="1">
                     <option id="toto">Toto</option>
-                    <!--<option>Titi</option>
-                    <option>Tata</option>
-                    <option>Tutu</option>
-                    <option>Tete</option> -->
+                    <option id="titi">Titi</option>
+                    <option id="tata">Tata</option>
+                    <option id="tutu">Tutu</option>
+                    <option id="tete">Tete</option>
                 </select>
 
-                <input id="rechercher" type="submit" value="Rechercher" class="rechercher">
+                <input id="rechercher" type="button" value="Rechercher" class="rechercher" onclick="afficher();">
             </form>
 
-            <table>
+            <table id="tableau">
                 <tr>
                     <td>Matiére 1</td>
                     <td>Matiére 2</td>
@@ -40,25 +42,56 @@
                 </tr>
 
                 <tr>
-                    <td>12</td>
-                    <td>15</td>
-                    <td>18</td>
-                    <td>14</td>
-                    <td>6</td>
-                    <td></td>
+                    <td id="n1"></td>
+                    <td id="n2"></td>
+                    <td id="n3"></td>
+                    <td id="n4"></td>
+                    <td id="n5"></td>
+                    <td id="n6"></td>
                 </tr>
 
             </table>
+            
+            <div class="form02g">
+                <form class="form2">
+                    <h4>Saisie manuelle : </h4>
 
-            <form class="form2">
-                <label for="note1">Note 1</label><br>
-                <input type="text" name="note1">
+                    <label class="inp2" for="note1">Note 1 : </label><br><br>
+                    <input class="inp2" type="text" name="note1" id="note1"><br><br>
 
-                <input id="rechercher2" type="submit" value="Rechercher" class="rechercher2">
+                    <label class="inp2" for="note2">Note 2 : </label><br><br>
+                    <input class="inp2" type="text" name="note2" id="note2"><br><br>
+
+                    <label class="inp2" for="note3">Note 3 : </label><br><br>
+                    <input class="inp2" type="text" name="note3" id="note3"><br><br>
+
+                    <label class="inp3" for="note4">Note 4 : </label><br><br>
+                    <input class="inp3" type="text" name="note4" id="note4"><br><br>
+
+                    <label class="inp3" for="note5">Note 5 : </label><br><br>
+                    <input class="inp3" type="text" name="note5" id="note5"><br><br>
+
+            </div>
+
+            <div class="form02d">
+
+                <input id="rechercher2" type="button" value="Rechercher" class="rechercher2" onclick="calculer();">
+
+            </div>
+
+            <div class="form02dd">
+
+                <p class="moyp">Moyenne générale : <br><br>
+                    <hr class="hr1"><span class="moy" id="moy"></span>
+                    <hr class="hr2">
+                </p>
+
+            </div>
+
             </form>
-
-
+            
         </div>
+        <hr class="hr4"><hr class="hr5">
     </div>
 
 
