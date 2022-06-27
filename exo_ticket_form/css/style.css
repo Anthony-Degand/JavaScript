@@ -37,7 +37,25 @@ form {
     font-size: 50px;
 }
 
-#form3 {
+.trois {
+    float:right;
+    font-size: 50px;
+    position : relative;
+    left:1100px;
+    top:-120px;
+
+}
+
+.form3 {
     position:relative;
     right:-900px;
+    top:30px;
 }
+
+.true {
+    background-color: rgb(28, 193, 28);
+  }
+  
+  .false {
+    background-color: rgb(208, 12, 12);
+  }

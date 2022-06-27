@@ -24,3 +24,22 @@ function ht(){
     s = document.getElementById("s").value;
     document.getElementById("ht").innerHTML = parseFloat(b) + parseFloat(p) + parseFloat(s);
 }
+
+var n = new Number , estPrem = Boolean(true);
+function tester ()
+{
+    n = Number(document.getElementById("nbre").value);
+    estPrem = true;
+for(j=2;j<n;j++)
+{
+    if ( n % j == 0 ) estPrem = false;
+}
+//si le nombre est premier j'affiche :
+if ( estPrem == true ) { document.getElementById("resultat3").innerHTML = n + " " + "Est un nombre premier" }
+//s'il n'est pas premier j'affiche :
+if ( estPrem == false ) { document.getElementById("resultat3").innerHTML = n + " " + "N'est pas un nombre premier" }
+//si le nombre est premier je passe le body en vert
+if (estPrem == true) {document.getElementById("body").style.backgroundColor = "green";}
+//sinon je passe le body en rouge
+if (estPrem == false) {document.getElementById("body").style.backgroundColor = "red";}
+}
