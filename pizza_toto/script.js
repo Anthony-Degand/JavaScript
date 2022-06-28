@@ -1,28 +1,64 @@
 
-/*const chorizo = 11.50;
-const margarita = 10.00;
-const tartiflette = 12.00;
-const total = (chorizo * 1.1)+(margarita * 1.1)+(tartiflette * 1.1);
-const ht = chorizo + margarita + tartiflette;*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+chorizo = document.getElementById("chorizo").value;
+
+function toggleCheckboxc() {
+    document.getElementById("chorizo").checked = !document.getElementById("chorizo").checked;
+    if ( document.getElementById("chorizo").checked){document.getElementById("chorizo") = 11.50}
+}
+
+margarita = document.getElementById("margarita").value;
+
+function toggleCheckboxm() {
+    document.getElementById("margarita").checked = document.getElementById("margarita").value;
+    console.log(margarita);
+}
+
+tartiflette = document.getElementById("tartiflette").value;
+
+function toggleCheckboxt() {
+    document.getElementById("tartiflette").checked = document.getElementById("tartiflette").value;
+    console.log(tartiflette);
+}
 
 function ftotal(){
-    chorizo = document.getElementById("chorizo").value;
-    chorizo.checked = 11.50;
-
-    margarita = document.getElementById("margarita").value;
-    chorizo.checked = 10.00;
-
-    tartiflette = document.getElementById("tartiflette").value;
-    tartiflette.checked = 12.00;
-
-    if ( chorizo.checked + margarita.checked + tartiflette.checked ) {
-        total = ( chorizo * 1.1 ) + ( margarita * 1.1 ) + ( tartiflette * 1.1 );
-    document.getElementById("clic2").innerHTML = total;
+    if ( chorizo.checked + margarita.checked + tartiflette.checked ){
+        document.getElementById("valider").innerHTML = (chorizo * 1.1) + (margarita * 1.1) + (tartiflette * 1.1);
+        console.log(chorizo.value + margarita.value + tartiflette.value);
     }
-}
-
-function fht(){
-
-}
-
-
+}*/
