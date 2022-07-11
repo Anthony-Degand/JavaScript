@@ -1,0 +1,14 @@
+.container1 {
+position:relative;
+left:50%;
+transform:translateX(-50%);
+width:50vw;
+height:50vh;
+text-align: center;
+margin-top: 20vh;
+
+}
+
+.form {
+    font-size: 2vh;
+}
