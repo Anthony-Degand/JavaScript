@@ -1,0 +1,33 @@
+.container01 {
+    width: 100vw;
+    height:100vh;
+    text-align:right;
+    
+    
+}
+
+.formulaire01 {
+    font-size: 3vh;
+    position:absolute;
+    left:50%;
+    transform: translateY(-50%);
+    top:30%;
+    transform: translateX(-50%);
+    
+}
+
+h1 {
+    text-align: center;
+    position:relative;
+    top:5vh;
+}
+
+#bouton {
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-left:50px;
+    font-size: 2vh;
+    cursor:pointer;
+}
+
