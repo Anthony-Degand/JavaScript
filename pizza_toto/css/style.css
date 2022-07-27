@@ -65,21 +65,73 @@ h1 {
     border-radius: 100%;
     position: absolute;
     display:inline;
+    margin:1rem;
 
 }
 
-#pizzaChorizolab {
-    font-size: 24px;
+#pizzaChorizoLab {
+    font-size: 2vw;
     color:whitesmoke;
     position: absolute;
     left:60%;
     transform: translateX(-50%);
+    top:10%;
 }
 
-#pizzaChorizoin {
+#pizzaChorizoCheck {
     position: absolute;
-    left:75%;
-    top:3%;
+    right:10%;
+    top:40%;
     transform: translateX(-50%);
+    transform: translateY(-50%);
     
 }
+
+#pizzaInfosC {
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position:absolute;
+    left:40%;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 1.1vw;
+}
+/* *******************************pizza tartiflette******************************* */
+#img02 {
+    width:150px;
+    height:150px;
+    border-radius: 100%;
+    position: absolute;
+    display:inline;
+    margin:1rem;
+
+}
+
+#pizzaTartiLab {
+    font-size: 2vw;
+    color:whitesmoke;
+    position: absolute;
+    left:60%;
+    transform: translateX(-50%);
+    top:10%;
+}
+
+#pizzaTartiCheck {
+    position: absolute;
+    right:10%;
+    top:40%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    
+}
+
+#pizzaInfosT {
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position:absolute;
+    left:40%;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 1.1vw;
+}
+
