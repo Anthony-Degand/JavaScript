@@ -340,14 +340,11 @@ top:0.5vh;
 }
 
 .droite {
-    background-color: aqua;
     text-align: center;
 }
 
 @media screen and (max-width: 600px) {
 
-    .droite {
-        width:20vw !important;
-        text-align: center;
-    }
+    .droite {width:10vw !important}
+    .gauche {width:90vw !important}
 }
