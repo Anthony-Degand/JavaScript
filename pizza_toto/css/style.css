@@ -2,136 +2,304 @@
     box-sizing: border-box;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: lighter;
+    margin:0%;
+    padding:0%;
 }
 
 .header {
-    width:100%;
-    height:200px;
-    background-color: antiquewhite;
+    
+    height: 20vh;
+    background-image: url('/pizza_toto/css/img/entete.png');
+    background-position:100%;
+    border:2px solid whitesmoke;
 }
 
 h1 {
     text-align: center;
     position: relative;
-    top:70px;
+    top: 20%;
+    color:rgba(254, 7, 7, 0.9);
+    -webkit-text-stroke:1px #1a1a1a;
+    font-family: 'Dancing Script', cursive;
+    
 }
 
 .nav {
-    width:15%;
-    height:600px;
-    background-color: beige;
-    float:left;
+    height: 70vh;
+    background-color: rgb(231, 164, 41);
+    float: left;
+    position:relative;
+    border:2px solid whitesmoke;
 }
+
 .body {
-    width:60%;
-    height:600px;
-    background-color: black;
-    float:left;
+    height: 70vh;
+    background-image: url('/pizza_toto/css/img/fond_gris.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    border:2px solid whitesmoke;
 }
 
 
 
-.pub {
-    width:25%;
-    height:600px;
-    background-color: beige;
-    float:right;
+.payer {
+    height: 70vh;
+    background-color: #1a1a1a;
+    float: right;
+    position: relative;
+    border:2px solid whitesmoke;
 }
 
 .footer {
-    width:100%;
-    height:100px;
-    background-color: cadetblue;
-    clear:both;
+    height: 10vh;
+    background-color: #3f3a3a;
+    clear: both;
+    border:2px solid whitesmoke;
 }
 
 .l1 {
-    height:33.33%;
-    position:relative;
+    height: 33.33%;
+    position: relative;
 }
 
 .l2 {
-    height:33.33%;
-    position:relative;
+    height: 33.33%;
+    position: relative;
 }
 
 .l3 {
-    height:33.33%;
-    position:relative;
+    height: 33.33%;
+    position: relative;
 }
 
 #img01 {
-    width:150px;
+    width: 150px;
     border-radius: 100%;
     position: absolute;
-    display:inline;
-    margin:1rem;
+    display: inline;
+    margin: 1rem;
 
 }
 
 #pizzaChorizoLab {
-    font-size: 2vw;
-    color:whitesmoke;
+    font-size: 1.5vw;
+    color: whitesmoke;
     position: absolute;
-    left:60%;
+    left: 60%;
     transform: translateX(-50%);
-    top:10%;
+    top: 5%;
 }
 
 #pizzaChorizoCheck {
     position: absolute;
-    right:10%;
-    top:40%;
+    right: 10%;
+    top: 40%;
     transform: translateX(-50%);
     transform: translateY(-50%);
-    
+
 }
 
 #pizzaInfosC {
-    color:white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    position:absolute;
-    left:40%;
-    top:50%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 40%;
+    top: 50%;
     transform: translateY(-50%);
-    font-size: 1.1vw;
+    font-size: 1vw;
+    text-align: center;
 }
+
 /* *******************************pizza tartiflette******************************* */
 #img02 {
-    width:150px;
-    height:150px;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
     position: absolute;
-    display:inline;
-    margin:1rem;
+    display: inline;
+    margin: 1rem;
 
 }
 
 #pizzaTartiLab {
-    font-size: 2vw;
-    color:whitesmoke;
+    font-size: 1.5vw;
+    color: whitesmoke;
     position: absolute;
-    left:60%;
+    left: 60%;
     transform: translateX(-50%);
-    top:10%;
+    top: 5%;
 }
 
 #pizzaTartiCheck {
     position: absolute;
-    right:10%;
-    top:40%;
+    right: 10%;
+    top: 40%;
     transform: translateX(-50%);
     transform: translateY(-50%);
-    
+
 }
 
 #pizzaInfosT {
-    color:white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    position:absolute;
-    left:40%;
-    top:50%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 40%;
+    top: 50%;
     transform: translateY(-50%);
-    font-size: 1.1vw;
+    font-size: 1vw;
+    text-align: center;
+}
+
+
+/* ******************************* Pizza Marga**************************************** */
+
+#pizzaMargaLab {
+    font-size: 1.5vw;
+    color: whitesmoke;
+    position: absolute;
+    left: 60%;
+    transform: translateX(-50%);
+    top: 10%;
+}
+
+#pizzaMargaCheck {
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+
+}
+
+#pizzaInfosM {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1vw;
+    text-align: center;
+}
+
+/* ******************************** Section payer ***************************************** */
+
+.pannier {
+    height: 10vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5vw;
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+}
+
+.pannier span {
+    position: absolute;
+    top: 30%;
+    transform: translateX(-50%);
+}
+
+.TTC {
+    height: 5vh;
+    background-color: #1a1a1a;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 55%;
+    border-top:3px solid whitesmoke;
+}
+
+.TTC span {
+    position: absolute;
+    left: 5%;
+}
+
+.TVA {
+    height: 5vh;
+    background-color: #1a1a1a;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 53%
+}
+
+.TVA span {
+    position: absolute;
+    left: 5%;
+}
+
+.commander {
+    height: 5vh;
+    background-color: #1a1a1a;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 50%
+}
+
+.commander input {
+    position: absolute;
+    left: 30%;
+    transform: translateX(-50%);
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 6px;
+    background-color: rgba(254, 7, 7, 0.7);
+    color: whitesmoke;
+}
+
+.commander input:hover {
+    position: absolute;
+    left: 30%;
+    transform: translateX(-50%);
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 6px;
+    background-color: rgb(231, 164, 41);
+    color: #1a1a1a;
+}
+
+.btn01 {
+background-color: #1a1a1a;
+height:3.5vh;
+width:100vw;
+text-align: center;
+position: relative;
+border:2px solid black;
+border-radius: 5px;
+top:20px;
+}
+
+.btn02 {
+    background-color: #1a1a1a;
+    height:3.5vh;
+    width:100vw;
+    text-align: center;
+    position: relative;
+    border:2px solid black;
+    border-radius: 5px;
+    top:-140px;
+}
+
+.btn03 {
+    background-color: #1a1a1a;
+    height:3.5vh;
+    width:100vw;
+    text-align: center;
+    position: relative;
+    border:2px solid black;
+    border-radius: 5px;
+    top:-300px;
+}
+
+.a {
+    text-decoration: none;
+    color:rgb(201, 8, 8);
+}
+
+.a:hover {
+    text-decoration: none;
+    color:rgb(231, 164, 41);
 }
 
