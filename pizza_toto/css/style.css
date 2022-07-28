@@ -272,9 +272,8 @@ h1 {
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: absolute;
-    bottom: 25%;
+    bottom: 10%;
     font-size:calc(24*var(--res));
-    margin-left: 20%;
 }
 
 
@@ -285,9 +284,8 @@ h1 {
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: absolute;
-    bottom: 15%;
-    font-size:calc(24*var(--res));
-    margin-left: 20%;
+    bottom: 0%;
+    font-size:calc(24*var(--res));   
 }
 
 .commander {
@@ -363,24 +361,3 @@ top:0.5vh;
     color:rgb(231, 164, 41);
 }
 
-.droite {
-    text-align: center;
-}
-
-@media screen and (max-width: 600px) {
-
-    .droite {width:10vw !important}
-    .gauche {width:90vw !important}
-}
-
-.gauche {
-float:left;
-
-text-align: center;
-margin:0px !important;
-padding:0px !important;
-}
-
-.droit {
-   float:right; 
-}
