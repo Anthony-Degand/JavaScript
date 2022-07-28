@@ -1,10 +1,42 @@
+// variables
+
+let chorizo = document.getElementById('pizzaChorizoCheck');
+let tartiflette = document.getElementById('pizzaTartiCheck');
+let margarita = document.getElementById('pizzaMargaCheck');
+
+let pannier = document.getElementById('pannier');
+let ttc = document.getElementById('TTC');
+let tva = document.getElementById('TVA');
+let  commander = document.getElementById('commander');
+
+let menu = document.getElementById('s01');
+
+// écouteurs
+
+chorizo.addEventListener('change', (event) => {
+    let menu = document.getElementById('s01').value;
+
+    if (event.currentTarget.checked) {
+        menu.innerHTML = 'Pizza chorizo 10,80€';
+    } else {
+      alert('not checked');
+    }
+  })
+
+
+// console.log(chorizo.checked);
 
 
 
+// form.addEventListener('submit', function (e) { // quand on valide le formulaire, lancer ma fonction validMdp
 
+//     e.preventDefault();// l'ors de la soumission du formulaire, ne pas engager l'événement de base ( ne pas envoyer les données )
 
-
-
+//    if (validEmail(form.email) && validMdp(form.mdp)) { // si mes champs son correct soumettre le formulaire
+//         form.submit();
+//    }
+   
+// });
 
 
 
