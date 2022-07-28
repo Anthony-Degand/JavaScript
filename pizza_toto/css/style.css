@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 * {
     box-sizing: border-box;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -38,7 +36,7 @@ h1 {
     border:2px solid whitesmoke;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
     .nav {
         height: 13vh;
         background-color: rgb(231, 164, 41);
@@ -55,6 +53,7 @@ h1 {
     background-size: cover;
     float: left;
     border:2px solid whitesmoke;
+    position:relative;
 }
 
 
@@ -83,25 +82,24 @@ h1 {
 
 .l1 {
     height: 33.33%;
-    position: relative;
     border-bottom : 2px solid orange;
     text-align: center;
-    display:inline-block;
+    position: relative;
 }
 
 .l2 {
     height: 33.33%;
-    position: relative;
     border-bottom : 2px solid orange;
     text-align: center;
-    display:inline-block;
+    position: relative; 
 }
 
 .l3 {
     height: 33.33%;
-    position: relative;
     text-align: center;
-    display:inline-block;
+    position: relative;
+    border-bottom : 2px solid orange;
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -130,71 +128,88 @@ h1 {
 #img01 {
     width: 150px;
     border-radius: 100%;
-    position: absolute;
     display: inline;
     margin-top: 2%;
-    margin-left: -40%;
-    
+    margin-bottom:2%;
+    margin-left: -70%;
+    object-fit: contain;
 }
 
 #pizzaChorizoLab {
     font-size:calc(30*var(--res));
     color: whitesmoke; 
-    position: absolute;
-    top: 5%;
+    position:absolute;
+    left:50%;
+    top:0%;
+    transform: translateX(-50%);
+    display:inline-block;
 }
 
 #pizzaChorizoCheck {
-    position: absolute;
     text-align: center;
-    top:11vh;
+    position: absolute;
+    top:50%;
+    right:5%;
+    transform: translateX(-50%); 
+    margin-left: 5%;
 }
 
 #pizzaInfosC {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: absolute;
-    left: 40%;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size:calc(20*var(--res));
+    font-size:calc(18*var(--res));
+    position:absolute;
+    bottom:0%;
+    left:50%;
+    transform: translateX(-50%);
     text-align: center;
+    display:inline-block;
+    margin-left: 5%;
 }
 
 /* *******************************pizza tartiflette******************************* */
 #img02 {
-    width: 150px;
     height:150px;
+    width: 150px;
     border-radius: 100%;
-    position: absolute;
     display: inline;
     margin-top: 2%;
-    margin-left: -40%;
+    margin-bottom:2%;
+    margin-left: -70%;
     
 }
 
 #pizzaTartiLab {
     font-size:calc(30*var(--res));
     color: whitesmoke; 
-    position: absolute;
-    top: 5%;
+    position:absolute;
+    left:50%;
+    top:0%;
+    transform: translateX(-50%);
+    display:inline-block;
+    object-fit: contain;
 }
 
 #pizzaTartiCheck {
-    position: absolute;
     text-align: center;
-    top:35vh;
+    position: absolute;
+    top:50%;
+     right:5%;
+     transform: translateX(-50%); 
+    margin-left: 5%;
 }
 
 #pizzaInfosT {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: absolute;
-    left: 40%;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size:calc(20*var(--res));
+    font-size:calc(18*var(--res));
+    position:absolute;
+    bottom:0%;
+    left:50%;
+    transform: translateX(-50%);
     text-align: center;
+    display:inline-block;
+    object-fit: contain;
 }
 
 
@@ -203,26 +218,34 @@ h1 {
 #pizzaMargaLab {
     font-size:calc(30*var(--res));
     color: whitesmoke; 
-    position: absolute;
-    top: 5%;
+    position:absolute;
+    left:50%;
+    top:0%;
+    transform: translateX(-50%);
+    display:inline-block;
 }
 
 #pizzaMargaCheck {
-    position: absolute;
     text-align: center;
-    top:59vh;
+    position: absolute;
+     top:50%;
+     right:5%;
+     transform: translateX(-50%); 
+    margin-left: 5%;
+
 
 }
 
 #pizzaInfosM {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: absolute;
-    left: 40%;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size:calc(20*var(--res));
+    font-size:calc(18*var(--res));
+    position:absolute;
+    bottom:0%;
+    left:50%;
+    transform: translateX(-50%);
     text-align: center;
+    display:inline-block;
 }
 
 /* ******************************** Section payer ***************************************** */
@@ -243,32 +266,28 @@ h1 {
 }
 
 .TTC {
+    width:70%;
     height: 5vh;
     background-color: #1a1a1a;
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: relative;
-    top: 55%;
-    border-top:3px solid whitesmoke;
+    position: absolute;
+    bottom: 25%;
+    font-size:calc(24*var(--res));
+    margin-left: 20%;
 }
 
-.TTC span {
-    position: absolute;
-    left: 5%;
-}
 
 .TVA {
+    width:70%;
     height: 5vh;
     background-color: #1a1a1a;
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: relative;
-    top: 53%
-}
-
-.TVA span {
     position: absolute;
-    left: 5%;
+    bottom: 15%;
+    font-size:calc(24*var(--res));
+    margin-left: 20%;
 }
 
 .commander {
@@ -276,18 +295,21 @@ h1 {
     background-color: #1a1a1a;
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: relative;
-    top: 50%;
+    position: absolute;
+    bottom: 2%;
+    left:50%;
+    transform: translateX(-50%);
     text-align: center;
 }
 
-.commander input {
+.commander {
     border-radius: 6px;
     background-color: rgba(254, 7, 7, 0.7);
     color: whitesmoke;
+    padding:5px 30px;
 }
 
-.commander input:hover {
+.commander:hover {
     border-radius: 6px;
     background-color: rgb(231, 164, 41);
     color: #1a1a1a;
@@ -350,4 +372,15 @@ top:0.5vh;
     .droite {width:10vw !important}
     .gauche {width:90vw !important}
 }
->>>>>>> d82b1c2def71a2c454012ea4d74ec3f115368b4d
+
+.gauche {
+float:left;
+
+text-align: center;
+margin:0px !important;
+padding:0px !important;
+}
+
+.droit {
+   float:right; 
+}
