@@ -3,7 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Dancing Script', cursive;
-    font-size: calc(34*var(--res));;
+    font-size: calc(34*var(--res));
 }
 
 html {
@@ -13,12 +13,20 @@ html {
 
 /* /////////////////////////// */
 /* *******************************squelette de ma page**************************** */
+.headerUtil {
+    height:20vh;
+    position: relative;
+}
+
 .header {
     height:20vh;
     background-image: url(/pizza_toto/css/img/entete.png);
     background-repeat: no-repeat;
     background-position: 100%;
-    position:relative;
+    position:fixed;
+    top:0vh;
+    border-bottom:2px solid grey;
+    z-index: 20;
 }
 
 .navPlusCorp {
@@ -26,9 +34,10 @@ html {
     height:100%;
 }
 .nav {
-    height:10vh;
+    height:8vh;
     background-color: #1a1a1a;
-    position:relative;
+    position:fixed;
+    z-index: 19;
 }
 
 .corp {
@@ -43,7 +52,13 @@ html {
     background-color: #1a1a1a;
     position: relative;
     color:whitesmoke;
+    border-top:2px solid grey;
 }
+
+ li {
+    position:relative;
+    left:-100%;
+} 
 /* ///////////////////////////////////////////////////////////////////////////////// */
 
 /* **********a partir de la taille desktop************  */
@@ -53,10 +68,63 @@ html {
     .nav {
         background-color: #1a1a1a;
         height:inherit;
+        position:relative;
     }
+
+    .nav_droite {
+        display:none;
+    }
+
+    .nav_gauche {
+        height:10vh;
+        position:relative;
+    }
+
+    .menu {
+        position: absolute;
+        top:20vh;
+         transform: translateX(-50%); 
+        color:whitesmoke;
+        left:130%;
+        width:80%;
+ }
+
+ ul li{
+    list-style: none;
+    margin-bottom: 30%;
+    text-align: center;
+    background-color: red;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+  color: white;
+  box-shadow: 20px 20px rgba(0,0,0,.15);
+  transition: all .4s ease;
+    cursor: pointer;
+    display:block;
+ }
+
+ ul li:hover{
+    list-style: none;
+    margin-bottom: 20%;
+    text-align: center;
+    background-color: rgb(139, 12, 12);
+    cursor: pointer;
+    display:block;
+    border-radius: 0% 0% 50% 50% / 0% 0% 20% 20% ;
+  box-shadow: 10px 10px rgba(0,0,0,.25);
+ }
+
  }
 
 /* /////////////////////////////////////////////////// */
+
+/* ***********************a la taille smartphone***************** */
+
+@media screen and (max-width: 767px) {
+    .menu ul li{
+        font-size:calc(60*var(--res));
+        width:100%;
+    }
+}
 
 h1 {
     position:absolute;
@@ -83,21 +151,24 @@ h1 {
 }
 
 .img_close {
-    width:100px;
-    height:70px;
+    width:80px;
+    height:60px;
     position:absolute;
     display: none;
+    cursor:pointer;
 }
 
 .img_open {
     width:55px;
+    cursor: pointer;
 }
 
 .img_panier {
     width:50px;
     position:absolute;
     right:150%;
-    margin-top:10%;  
+    margin-top:10%;
+    cursor: pointer; 
 }
 
 .img_fb {

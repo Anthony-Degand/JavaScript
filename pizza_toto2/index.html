@@ -17,6 +17,7 @@
 <body>
 
     <div class="container01">
+      <div class="headerUtil"></div>
 
         <div class="row px-0 mx-0">
 
@@ -30,15 +31,20 @@
 
           <div class="row mx-0 px-0">
             
-            <div class="nav col-sm-12 col-md-3 col-lg-3 col-xl-3">
+            <div class="nav col-sm-12 col-md-3 col-lg-3 col-xl-3" id="nav">
   
               <p class="nav_gauche"><img class="img_pizza" src="/pizza_toto2/asset/img/pizza_menu.png"><span>Menu</span></p>
-              <p class="nav_droite"><img class="img_panier" src="/pizza_toto2/asset/img/panier.png"><img class="img_close" src="/pizza_toto2/asset/img/close_menu.png"><img class="img_open" src="/pizza_toto2/asset/img/open_menu.png"></p>
+              <p class="nav_droite"><img class="img_panier" src="/pizza_toto2/asset/img/panier.png"><img class="img_close" src="/pizza_toto2/asset/img/close_menu.png"><img class="img_open" id="img_open" src="/pizza_toto2/asset/img/open_menu.png"></p>
 
-              <p>Mon panier</p>
-              <p>Tomates</p>
-              <p>Blanches</p>
-              <p>Océanes</p>
+              <div class="menu row px-0 mx-0" id="menuMenu">
+                <ul class="row px-0 mx-0" id="ul" >
+                  <li id="liste">Mon panier</li>
+                  <li id="liste01">Tomates</li>
+                  <li id="liste02">Blanches</li>
+                  <li id="liste03">Océanes</li>
+                </ul>
+              </div>
+              
             </div>
   
             <div class="corp col-sm-12 col-md-9 col-lg-9 col-xl-9">
