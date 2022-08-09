@@ -64,6 +64,7 @@ menu.addEventListener('click', () => {
     liste03.style.cursor = "pointer";
     liste03.addEventListener("mouseover", () => {
         liste03.style.backgroundColor = "rgb(139, 12, 12)";
+        
     })
     liste03.addEventListener("mouseout", () => {
         liste03.style.backgroundColor = "red";
@@ -83,8 +84,8 @@ fermer.addEventListener('click', () => {
     menu.style.display = "block";
     fermer.style.display = "none";
     location.reload()
+    
 
 })
 
 // ***************************************fin du menu********************************************
-

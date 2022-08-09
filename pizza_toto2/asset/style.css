@@ -112,7 +112,43 @@ html {
     border-radius: 0% 0% 50% 50% / 0% 0% 20% 20% ;
   box-shadow: 10px 10px rgba(0,0,0,.25);
  }
+/* ********************img pizza******************* */
+.imgChorizo {
+    border-radius: 100%;
+    width:200px;
+}
 
+.imgChorizo:hover {
+    border-radius: 100%;
+    width:500px;
+    transition-duration: 3.5s;
+}
+
+.imgMarga {
+    border-radius: 100%;
+    width:200px;
+    height:200px;
+}
+
+.imgMarga:hover {
+    border-radius: 100%;
+    width:500px;
+    height:500px;
+    transition-duration: 3.5s;
+}
+
+.img4Fromages {
+    border-radius: 100%;
+    width:200px;
+    height:200px;
+}
+
+.img4Fromages:hover {
+    border-radius: 100%;
+    width:500px;
+    height:500px;
+    transition-duration: 3.5s;
+}
  }
 
 /* /////////////////////////////////////////////////// */
@@ -124,6 +160,45 @@ html {
         font-size:calc(60*var(--res));
         width:100%;
     }
+
+    /* ********************img pizza******************* */
+.imgChorizo {
+    border-radius: 100%;
+    width:200px;
+}
+
+.imgChorizo:hover {
+    border-radius: 100%;
+    width:300px;
+    transition-duration: 3.5s;
+}
+
+.imgMarga {
+    border-radius: 100%;
+    width:200px;
+    height:200px;
+}
+
+.imgMarga:hover {
+    border-radius: 100%;
+    width:300px;
+    height:300px;
+    transition-duration: 3.5s;
+}
+
+.img4Fromages {
+    border-radius: 100%;
+    width:200px;
+    height:200px;
+}
+
+.img4Fromages:hover {
+    border-radius: 100%;
+    width:300px;
+    height:300px;
+    transition-duration: 3.5s;
+}
+
 }
 
 h1 {
@@ -220,9 +295,46 @@ form {
 
 /* image de pizza */
 
-.imgChorizo {
-    border-radius: 100%;
-    width:200px;
-}
 
 /* /////////////////// */
+
+button {
+    text-align: center;
+    width:60px !important;
+    padding-left:0px !important;
+    padding-right: 0px !important;
+    border-radius: 5px !important;
+    background-color: rgb(146, 13, 13);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    
+}
+
+button:hover {
+    text-align: center;
+    width:60px !important;
+    padding-left:0px !important;
+    padding-right: 0px !important;
+    border-radius: 5px !important;
+    background-color: rgb(146, 13, 13);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    transform: rotate(360deg);
+    /* transition-delay: 0s; */
+    transition-duration: 5s;
+}
+
+#commander {
+    background-color: rgb(151, 23, 23);
+    color:whitesmoke;
+    
+    transition: all .4s ease;
+    
+}
+
+#commander:hover {
+    background-image: url("/pizza_toto2/asset/img/miam.gif");
+    background-repeat: no-repeat;
+    background-size: 160%;
+    color:whitesmoke;
+    border:2px solid whitesmoke;
+}
+
