@@ -317,12 +317,12 @@ button:hover {
     border-radius: 5px !important;
     background-color: rgb(146, 13, 13);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
-    transform: rotate(360deg);
+    transform: rotate(10deg);
     /* transition-delay: 0s; */
-    transition-duration: 5s;
+    transition-duration: 1s;
 }
 
-#commander {
+#commander01 {
     background-color: rgb(151, 23, 23);
     color:whitesmoke;
     
@@ -330,7 +330,7 @@ button:hover {
     
 }
 
-#commander:hover {
+#commander01:hover {
     background-image: url("/pizza_toto2/asset/img/miam.gif");
     background-repeat: no-repeat;
     background-size: 160%;
